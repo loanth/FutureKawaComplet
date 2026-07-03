@@ -2,7 +2,7 @@
 
 ## 📖 Présentation
 
-FutureKawa est une plateforme complète de gestion de distributeurs automatiques de café connectés.
+FutureKawa est une plateforme complète de gestion d'exploitation de café.
 
 Le projet est organisé sous forme de plusieurs dépôts Git intégrés grâce aux **Git Submodules**, permettant de séparer les différents domaines fonctionnels tout en conservant un dépôt principal unique.
 
@@ -32,16 +32,18 @@ API principale de la plateforme.
 - API REST
 - Authentification JWT
 - Gestion des utilisateurs
-- Gestion des machines
-- Gestion des consommations
+- Gestion des Pays
+- Gestion des Lots
 - Gestion des stocks
 - Base de données
 
 Technologies :
 
-- ASP.NET Core
-- Entity Framework
-- SQL Server
+
+- Python (Flask)
+- Sql Alchemy
+
+
 
 ---
 
@@ -53,36 +55,31 @@ Application utilisée par les utilisateurs et le siège.
 
 - Interface web
 - Tableau de bord
-- Administration
-- Gestion des machines
+- Gestion des exploitations/entrepôts/lots
 - Gestion des utilisateurs
 - Backend du siège
 
 Technologies :
 
 - React
-- Node.js
-- Express
+- TypeScript
 
 ---
 
 ## futurekawa
 
-Application embarquée sur les machines à café connectées.
+Iot.
 
 ### Contenu
 
-- Communication avec l'API
-- Gestion des capteurs
-- Envoi des données
-- Télémaintenance
-- Synchronisation
+- Relève des mesures (humidité et température)
+- Gestion des alertes par mail
 
 Technologies :
 
 - Python
 - MQTT
-- Raspberry Pi
+
 
 ---
 
@@ -93,7 +90,6 @@ Infrastructure du projet.
 ### Contenu
 
 - Docker
-- Kubernetes
 - Pipeline CI/CD
 - Déploiement automatique
 - Monitoring
@@ -102,9 +98,7 @@ Infrastructure du projet.
 Technologies :
 
 - Docker
-- Kubernetes
-- GitHub Actions / GitLab CI (à adapter)
-- Ansible
+- Jenkins
 
 ---
 
