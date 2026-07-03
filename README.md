@@ -6,6 +6,8 @@ FutureKawa est une plateforme complète de gestion d'exploitation de café.
 
 Le projet est organisé sous forme de plusieurs dépôts Git intégrés grâce aux **Git Submodules**, permettant de séparer les différents domaines fonctionnels tout en conservant un dépôt principal unique.
 
+
+Pour voir l'historique de chaque commit, il faut clique sur chaque repo, cela vous redirigera vers son emplacement github et vous pourrez ainsi consulter les modifications.
 ---
 
 # 🏗️ Architecture du projet
@@ -107,7 +109,7 @@ Technologies :
 Cloner le dépôt avec tous les sous-modules :
 
 ```bash
-git clone --recurse-submodules <url-du-repo>
+git clone --recurse-submodules https://github.com/loanth/FutureKawaComplet.git
 ```
 
 Si le dépôt est déjà cloné :
