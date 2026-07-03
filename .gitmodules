@@ -1,0 +1,12 @@
+[submodule "futureKawaFront"]
+	path = futureKawaFront
+	url = https://github.com/loanth/futureKawaFront
+[submodule "MSPR1"]
+	path = MSPR1
+	url = https://github.com/Luteix/MSPR1.git
+[submodule "futurekawa"]
+	path = futurekawa
+	url = https://github.com/quentinchad/futurekawa.git
+[submodule "mspr_bloc4"]
+	path = mspr_bloc4
+	url = https://github.com/Alextraterrestre/mspr_bloc4
